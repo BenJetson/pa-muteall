@@ -10,6 +10,7 @@ _(You can put it somewhere else if you'd like, but you will have to edit the `.d
 
 
 1. Download `mute-all.sh` and `mute-all.desktop` files from the repository.  
+   The files will be put in `~` and `~/.config/autostart`, respectively. 
    ```
    wget https://github.com/BenJetson/pa-muteall/raw/master/mute-all.sh -O ~/.mute-all.sh
    wget https://github.com/BenJetson/pa-muteall/raw/master/mute-all.desktop -P ~/.config/autostart
