@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/ben/.dotfiles/mute-all.sh
+Icon=audio-volume-muted-symbolic.symbolic
+Hidden=false
+NoDisplay=false
+Name=Mute All
+Terminal=false
+Comment=Mutes the output volume of all PA sinks on login.
+OnlyShowIn=GNOME;LXDE;Unity;
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-delay=0
