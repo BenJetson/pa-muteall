@@ -31,6 +31,8 @@ _(You can put it somewhere else if you'd like, but you will have to edit the `.d
 
 ### Not working?
 
-Try changing the path in `~/.config/autostart/mute-all.desktop` to the absolute path to the script.
+Try changing the execution path in the autostart file to the absolute path of the script.
 
-Change the line `Exec=~/.mute-all.sh` to `Exec=/home/USERNAME/.mute-all.sh` where `USERNAME` is your username.
+1. Open `~/.config/autostart/mute-all.desktop`
+
+2. Change the line `Exec=~/.mute-all.sh` to `Exec=/home/USERNAME/.mute-all.sh` where `USERNAME` is your username.
