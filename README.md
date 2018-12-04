@@ -1,12 +1,15 @@
 # pa-muteall
 Script that mutes all PulseAudio sinks connected to the system.
 
-## To run this on login
+## Running the script on login
 
 These instructions work for GNOME, Unity, and other desktop environments that follow the [FreeDesktop Desktop Application Autostart Specification](https://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html).
 
-__The given commands assume you download the files to `~/Downloads` and want the script to be located at `~/.mute-all.sh`.__  
+### The given commands assume that:
+ * You download the files to `~/Downloads`.
+ * You want the script to be located at `~/.mute-all.sh`.
 
+### Instructions
 1. Download `mute-all.sh` and `mute-all.desktop` files from the repository.  
    
 2. Move `mute-all.sh` to `~/.mute-all.sh`  
