@@ -23,7 +23,9 @@ _(You can put it somewhere else if you'd like, but you will have to edit the `.d
    ```  
    
 3. Trust `mute-all.desktop` (Only required on GNOME-based DEs)  
-   `gio set ~/.config/autostart "metadata::trusted" yes`  
+   ```
+   gio set ~/.config/autostart "metadata::trusted" yes
+   ```  
    
 5. Logout and log back in to test.  
 
