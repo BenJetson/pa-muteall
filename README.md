@@ -15,13 +15,13 @@ _(You can put it somewhere else if you'd like, but you will have to edit the `.d
    wget https://github.com/BenJetson/pa-muteall/raw/master/mute-all.desktop -P ~/.config/autostart
    ```
    
-2. Change permissions to allow `mute-all.sh` to execute.  
-   `chmod +x ~/.mute-all.sh`   
+2. Change permissions to allow these files to execute.  
+   ```
+   chmod +x ~/.mute-all.sh
+   chmod +x ~/.config/autostart/mute-all.desktop
+   ```  
    
-3. Change permissions to allow `mute-all.desktop` to execute.  
-   `chmod +x ~/.config/autostart/mute-all.desktop`  
-   
-4. Trust `mute-all.desktop` (Only required on GNOME-based DEs)  
+3. Trust `mute-all.desktop` (Only required on GNOME-based DEs)  
    `gio set ~/.config/autostart "metadata::trusted" yes`  
    
 5. Logout and log back in to test.  
