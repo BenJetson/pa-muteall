@@ -1,6 +1,11 @@
 [Desktop Entry]
 Type=Application
-Exec=/home/ben/.dotfiles/mute-all.sh
+
+# If the script does not run on startup, try
+#   specifying the absolute path.
+#   /home/USERNAME/.mute-all.sh
+Exec=~/.mute-all.sh
+
 Icon=audio-volume-muted-symbolic.symbolic
 Hidden=false
 NoDisplay=false
